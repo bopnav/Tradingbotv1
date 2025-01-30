@@ -3,8 +3,8 @@ from alpaca_trade_api.rest import REST, TimeFrame
 import logging
 
 # ✅ Paper Trading API Setup (Replace with real API keys)
-API_KEY = "PKK7QJC6RD055K9PTKIO"
-API_SECRET = "D8EiDM5OCN3sCAHjf8GxvdfGCfLU4BcNU7FsQz41"
+API_KEY = ""
+API_SECRET = ""
 BASE_URL = "https://paper-api.alpaca.markets"
 
 api = REST(API_KEY, API_SECRET, BASE_URL)
